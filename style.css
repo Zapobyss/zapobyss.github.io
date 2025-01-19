@@ -45,11 +45,18 @@ body {
 
 
 /* Image centering */
-.center-image {
+.image-container {
   display: flex;
   justify-content: center;
-  align-items: right;
-  height: 100%;  /* or a fixed height if needed */
+  gap: 10px;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
 }
 
 
