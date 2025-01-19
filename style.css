@@ -44,6 +44,15 @@ body {
 }
 
 
+/* Image centering */
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  height: 100%;  /* or a fixed height if needed */
+}
+
+
 /* Page contents */
 .set {
     padding: 20px;
